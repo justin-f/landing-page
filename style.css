@@ -85,7 +85,7 @@
   #homeNews {
   	padding-top: 30px;
   }
-  #homeNewsL {
+  .homeNewsL {
   	word-wrap: break-word;
   	background-color: silver;
   	color: black;
@@ -93,7 +93,7 @@
   	/*border-color:black;*/
   	/*border-style:solid;*/
   }
-  #homeNewsR {
+  .homeNewsR {
   	padding: 10px;
   	word-wrap: break-word;
   	background-color: gray;
@@ -119,4 +119,18 @@
   }
   .form-group {
   	font-size: .5em;
+  }
+  .video {
+  	position: relative;
+  	padding-bottom: 56.25%;
+  	padding-top: 30px;
+  	height: 0;
+  	overflow: hidden;
+  }
+  .video iframe, .video object, .video embed {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
   }
